@@ -9,12 +9,10 @@ const ToDoModel = sequelize.define("ToDo", {
 
   descricao: {
     type: DataTypes.STRING,
-    required: true,
   },
 
   feito: {
     type: DataTypes.STRING,
-    required: true,
   },
 });
 
