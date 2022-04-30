@@ -37,7 +37,7 @@ class ToDoController {
   static async create(req, res) {
     const { atividade, descricao, feito } = req.body;
 
-    if (!atividade || !descricao || !feito) {
+    if (!atividade) {
       return res.status(401).json({
         status: 401,
         message: "Todos os campos precisam ser preenchidos",
@@ -57,8 +57,6 @@ class ToDoController {
 
     const novoToDo = {
       atividade,
-      descricao,
-      feito,
     };
 
     try {
@@ -101,7 +99,7 @@ class ToDoController {
   static async updateById(req, res) {
     const { id } = req.params;
 
-    const { atividade, descricao, feito } = req.body;
+    const { atividade } = req.body;
 
     const toDo = await ToDoModel.findOne({
       where: { id: id },
@@ -117,8 +115,6 @@ class ToDoController {
 
     const novaAtividade = {
       atividade,
-      descricao,
-      feito,
     };
 
     try {
