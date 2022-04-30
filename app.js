@@ -16,6 +16,9 @@ const Models = require("./src/models/ToDoModel.js");
 const ToDoRotas = require("./src/routes/ToDoRotas.js");
 
 // Rotas
+app.get('/', (req, res) => {
+  res.json({message: "API ToDoList Murilo Antunes"});
+})
 app.use('/atividade', ToDoRotas);
 
 // Teste
