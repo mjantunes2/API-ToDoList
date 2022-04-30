@@ -24,7 +24,7 @@ class ToDoController {
       if (!toDo) {
         return res.status(401).json({
           status: 401,
-          message: "Cardápio não encontrado",
+          message: "Atividade não encontrado",
         });
       }
 
