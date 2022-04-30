@@ -9,15 +9,12 @@ app.use(express.json());
 const sequelize = require("./src/database/connection.js");
 
 // Models
-const Models = require('./src/models/ToDoModel.js');
+const Models = require("./src/models/ToDoModel.js");
 
 // Router
-const ToDoRotas = require('./src/routes/ToDoRotas.js');
+const ToDoRotas = require("./src/routes/ToDoRotas.js");
 
 // Rotas
-app.use('/', (req, res) => {
-  res.status(200).json({ message: "API ToDo List "})
-});
 app.use('/atividade', ToDoRotas);
 
 // Teste

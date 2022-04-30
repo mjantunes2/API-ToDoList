@@ -13,7 +13,7 @@ const ToDoModel = sequelize.define("ToDo", {
   },
 
   feito: {
-    type: DataTypes.BOOLEAN,
+    type: DataTypes.STRING,
     required: true,
   },
 });
