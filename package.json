@@ -1,0 +1,33 @@
+{
+  "name": "api---todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjantunes2/API---ToDoList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjantunes2/API---ToDoList/issues"
+  },
+  "homepage": "https://github.com/mjantunes2/API---ToDoList#readme",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.0",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "jest": "^28.0.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.3"
+  }
+}
