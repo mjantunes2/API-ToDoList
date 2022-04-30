@@ -2,6 +2,9 @@ require("dotenv-safe").config();
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
+const cors = require('cors');
+
+app.use(cors());
 
 // Ler e enviar JSON na req e res
 app.use(express.json());
