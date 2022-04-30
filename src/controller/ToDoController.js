@@ -45,7 +45,7 @@ class ToDoController {
     }
 
     const toDoExistente = await ToDoModel.findOne({
-      where: { id: id },
+      where: { atividade: atividade },
     });
 
     if (toDoExistente) {

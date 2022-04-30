@@ -2,11 +2,20 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
 
+// Ler e enviar JSON na req e res
+app.use(express.json());
+
 // Conexão com o Banco
 const sequelize = require("./src/database/connection.js");
 
-// Ler e enviar JSON na req e res
-app.use(express.json());
+// Models
+const Models = require("./src/models/ToDoModel.js");
+
+// Router
+const ToDoRotas = require("./src/routes/ToDoRotas.js");
+
+// Rotas
+app.use('/atividade', ToDoRotas);
 
 // Teste
 /*app.get("/teste", (req, res) => {
