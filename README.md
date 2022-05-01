@@ -30,7 +30,7 @@ O objetivo do projeto foi criar uma API para uma lista de afazeres, utilizando N
 {
     "atividade": "Estudar Java",
     "descricao": "Estudar 2 horas diárias sobre essa linguagem",
-    "feito": "Ainda não"
+    "feito": "feito"
 }
 ```
 
@@ -40,7 +40,7 @@ O objetivo do projeto foi criar uma API para uma lista de afazeres, utilizando N
 {
     "atividade": "Estudar TypeScript",
     "descricao": "Estudar 2 horas diárias sobre essa linguagem",
-    "feito": "Ainda não"
+    "feito": "feito"
 }
 ```
 
