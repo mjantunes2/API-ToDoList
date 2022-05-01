@@ -34,7 +34,7 @@ O objetivo do projeto foi criar uma API para uma lista de afazeres, utilizando N
 }
 ```
 
-<b>[PATCH] </b> /atividade/:id - A Rota deve atualizar um quarto com as informações passadas no corpo da requisição. Caso necessário apenas uma informação pode ser atualizada por vez.<br>
+<b>[PATCH] </b> /atividade/:id - A Rota deve atualizar uma atividade com as informações passadas no corpo da requisição. Caso necessário apenas uma informação pode ser atualizada por vez.<br>
 
 ```javascript
 {
