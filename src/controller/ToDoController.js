@@ -56,7 +56,7 @@ class ToDoController {
     }
 
     const novoToDo = {
-      atividade,
+      atividade, descricao, feito
     };
 
     try {
@@ -99,7 +99,7 @@ class ToDoController {
   static async updateById(req, res) {
     const { id } = req.params;
 
-    const { atividade } = req.body;
+    const { atividade, descricao, feito } = req.body;
 
     const toDo = await ToDoModel.findOne({
       where: { id: id },
@@ -115,6 +115,8 @@ class ToDoController {
 
     const novaAtividade = {
       atividade,
+      descricao,
+      feito
     };
 
     try {
