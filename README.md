@@ -26,6 +26,7 @@ O objetivo do projeto foi criar uma API para uma lista de afazeres, utilizando N
 
 <b>[POST] </b> /atividade/create - A Rota deve criar uma atividade com as informações passas no corpo da requisição.<br>
 
+
 ```javascript
 {
     "atividade": "Estudar Java",
