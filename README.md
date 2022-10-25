@@ -97,4 +97,4 @@ $ npm test
 </p>
 
 
-**Desenvolvido por <a href="https://www.linkedin.com/in/murilo-antunes-bb1143228/"> Murilo Antunes e <a href="https://www.linkedin.com/in/lanaschimitez/"> Lana Eduarda Schimitez.**
+**Desenvolvido por <a href="https://www.linkedin.com/in/murilo-antunes-bb1143228/"> Murilo Antunes</a> e <a href="https://www.linkedin.com/in/lanaschimitez/"> Lana Eduarda Schimitez.**
